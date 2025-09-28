@@ -73,7 +73,7 @@ export const personalInfo = [
   {
     id: 3,
     title: "Age : ",
-    description: "24 Years Old",
+    description: "27 Years Old",
   },
 
   {
@@ -91,7 +91,7 @@ export const personalInfo = [
   {
     id: 6,
     title: "Address : ",
-    description: "Cebu City, Philippines",
+    description: "Talisay City, Cebu, PH",
   },
 
   {
@@ -123,7 +123,7 @@ export const stats = [
   {
     id: 1,
     no: "New",
-    title: "Fresh <br /> Graduate",
+    title: "IT Professional",
   },
 
   {
@@ -140,7 +140,7 @@ export const stats = [
 
   {
     id: 4,
-    no: "2+",
+    no: "3+",
     title: " Certificates <br /> Acquired",
   },
 ];
@@ -150,13 +150,22 @@ export const resume = [
     id: 1,
     category: "experience",
     icon: <FaBriefcase />,
+    year: "2023 - 2025",
+    title: "Subject Instructor<span>Advance Central College</span>",
+    desc: "Experienced as a Subject Instructor at Advance Central College for 2 years (2023 – 2025), teaching both Senior High School and College students.",
+  },
+
+  {
+    id: 2,
+    category: "experience",
+    icon: <FaBriefcase />,
     year: "2017 - 2019",
     title: "Data Analyst <span> Savant Technologies Inc. </span>",
     desc: "Experienced working in a non-voice BPO company for more than 2 years from April 2017 – May 2019.",
   },
 
   {
-    id: 2,
+    id: 3,
     category: "experience",
     icon: <FaBriefcase />,
     year: "2023",
@@ -165,7 +174,7 @@ export const resume = [
   },
 
   {
-    id: 3,
+    id: 4,
     category: "experience",
     icon: <FaBriefcase />,
     year: "2023",
@@ -174,7 +183,7 @@ export const resume = [
   },
 
   {
-    id: 4,
+    id: 5,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2019 - 2023",
@@ -183,7 +192,7 @@ export const resume = [
   },
 
   {
-    id: 5,
+    id: 6,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2011 - 2015",
@@ -192,7 +201,7 @@ export const resume = [
   },
 
   {
-    id: 6,
+    id: 7,
     category: "education",
     icon: <FaGraduationCap />,
     year: "2005 - 2009",
@@ -205,7 +214,7 @@ export const skills = [
   {
     id: 1,
     title: "Html",
-    percentage: "30",
+    percentage: "50",
   },
 
   {
@@ -223,7 +232,7 @@ export const skills = [
   {
     id: 4,
     title: "Java",
-    percentage: "40",
+    percentage: "60",
   },
 
   {
@@ -241,7 +250,7 @@ export const skills = [
   {
     id: 7,
     title: "Photoshop",
-    percentage: "80",
+    percentage: "60",
   },
 
   {
@@ -260,22 +269,22 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Photo",
+        desc: "Desktop Wallpaper",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "None",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
+        title: "Tools : ",
         desc: "Adobe Photoshop",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: "Sample Edit",
       },
     ],
   },
@@ -283,27 +292,35 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: "Website Design",
+    title: "Website Project",
+    preview: "https://perpetualworld.free.nf/download_update.php",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Website",
+        desc: "Perpetual World",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "Upwork",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "React JS",
+        desc: "HTML, CSS, JS, PHP",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: (
+          <a
+            href="https://perpetualworld.free.nf/download_update.php"
+            target="_blank"
+            rel="noopener noreferrer">
+            perpetualworld.free.nf
+          </a>
+        ),
       },
     ],
   },
@@ -311,27 +328,35 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: "Video Editing",
+    title: "CRUD Project",
+    preview: "https://crud-php-bootstrap.free.nf",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Video",
+        desc: "CRUD PHP Bootstrap",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "School Project",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Premium",
+        desc: "HTML, PHP, Bootstrap",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: (
+          <a
+            href="https://crud-php-bootstrap.free.nf"
+            target="_blank"
+            rel="noopener noreferrer">
+            crud-php-bootstrap.free.nf
+          </a>
+        ),
       },
     ],
   },
@@ -368,22 +393,34 @@ export const portfolio = [
     id: 5,
     img: Work5,
     title: "Landing Page",
+    preview: "https://perpetualworld.free.nf",
     details: [
       {
+        icon: <FiFileText />,
         title: "Project : ",
-        desc: "Website",
+        desc: "Perpetual World",
       },
       {
+        icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "Upwork",
       },
       {
+        icon: <FaCode />,
         title: "Language : ",
-        desc: "React JS, Node JS",
+        desc: "HTML, CSS, JS, PHP",
       },
       {
+        icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: (
+          <a
+            href="https://perpetualworld.free.nf"
+            target="_blank"
+            rel="noopener noreferrer">
+            perpetualworld.free.nf
+          </a>
+        ),
       },
     ],
   },
